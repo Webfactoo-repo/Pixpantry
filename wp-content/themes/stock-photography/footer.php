@@ -36,11 +36,7 @@
 
 		</div><!-- #footer-inner .container -->
 		<div id="site-info-wrap">
-			<div class="site-info container">
-				<?php do_action( 'stock_photography_credits' ); ?>
-				<?php _e( 'Powered by', 'stock_photography' ); ?> <a href="http://wordpress.org/" title="<?php esc_attr_e( 'A Semantic Personal Publishing Platform', 'stock_photography' ); ?>" rel="generator"><?php _e( 'WordPress', 'stock_photography' ); ?></a>
-				<span class="sep"> | </span>
-				<?php printf( __( '%1$s by %2$s.', 'stock_photography' ), '<a href="http://graphpaperpress.com/themes/stock-photography/">Stock Photography</a> theme', '<a href="http://graphpaperpress.com/" rel="designer">Graph Paper Press</a>' ); ?>
+			<div class="site-info container">Pixpantry 2014 (c) All rights reserved | Proudly created by <a href="http://www.webfactoo.com/">Webfactoo</a>
 			</div><!-- .site-info -->
 		</div>
 	</footer><!-- #colophon .site-footer -->
