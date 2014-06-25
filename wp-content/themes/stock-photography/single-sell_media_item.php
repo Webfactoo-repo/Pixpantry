@@ -32,6 +32,18 @@ get_header(); ?>
 			<p class="sell-media-lightbox"><a href="javascript:void(0);" title="<?php _e( 'Lightbox', 'sell_media' ); ?>" class="add-to-lightbox" id="lightbox-<?php echo $post->ID; ?>" data-id="<?php echo $post->ID; ?>"><span class="genericon genericon-medium genericon-category"></span> <?php _e( 'Save to lightbox', 'sell_media' ); ?></a></p>
 			<ul>
 				<li class="filename"><span class="title"><?php _e( 'File ID', 'sell_media' ); ?>:</span> <?php echo get_the_id(); ?></li>
+            <?php
+			    $attachMeta = get_post_meta($post->ID);
+				$imgDataa = getimagesize(WP_CONTENT_DIR . "/uploads/sell_media/" . $attachMeta[_sell_media_attached_file][0]) ;
+
+//				$imgDatta = get_post_meta( $post->ID, '_sell_media_attachment_id', true );
+//				$imgDattaa = wp_get_attachment_image_src( $imgDatta, 'full' );
+//				print_r($imgDataa);
+            ?>
+                <li>
+                    <span class="title">Width:</span> <?php echo $imgDataa[0]?> px
+                <li>
+                    <span class="title">Height:</span> <?php echo $imgDataa[1]?> px
 				<li>
 					<span class="title"><?php _e( 'Creator', 'sell_media' ); ?>:</span>
 					<?php
@@ -52,16 +64,6 @@ get_header(); ?>
 					<li class="collections"><span class="title"><?php _e( 'Collections', 'sell_media' ); ?>:</span> <?php sell_media_collections( $post->ID ); ?></li>
 				<?php } ?>
 
-				<?php if ( true == stock_photography_sell_media_item_has_taxonomy_terms( $post->ID, 'licenses' ) ) { ?>
-					<li class="licenses"><span class="title"><?php _e( 'Licenses', 'sell_media' ); ?>:</span>
-						<?php
-						$licenses = wp_get_post_terms( $post->ID, 'licenses' );
-						foreach ( $licenses as $license ) {
-							echo $license->name . " ";
-						}
-						?>
-					</li>
-				<?php } ?>
 
 				<?php if ( true == stock_photography_sell_media_item_has_taxonomy_terms( $post->ID, 'keywords' ) ) { ?>
 					<li class="keywords"><span class="title"><?php _e( 'Keywords', 'sell_media' ); ?>:</span> <?php stock_photography_sell_media_image_keywords( $post->ID ); ?></li>
