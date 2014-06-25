@@ -639,15 +639,17 @@ object {
 	margin-top:2em;
 }
 .site-branding {
-	float: none;
+	float: left;
+	margin: 0 40px 0 0;
 }
 .not-home .site-branding {
 	float: left;
+	margin: 0;
 }
 .site-title {
 	font-size: 1.5em;
 	font-weight: bold;
-	margin: 1em 0;
+	margin: 0;
 	text-transform: uppercase;
 }
 .site-title a {
@@ -1587,17 +1589,16 @@ h2.comments-title {
 }
 
 /* Advanced Search */
-.home #masthead .smas-container,
-.home #masthead .sell-media-search {
-	float: left;
-}
-
 #masthead .smas-container,
 #masthead .sell-media-search {
 	float: right;
 	clear: none;
-	margin: 1em 0;
+	margin: 162px 0 0 0;
 	width: 50%;
+}
+.not-home #masthead .smas-container,
+.not-home #masthead .sell-media-search {
+	margin: 57px 0 0 0;
 }
 #masthead .smas-form,
 #masthead .wp-advanced-search {
