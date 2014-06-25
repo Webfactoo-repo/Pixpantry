@@ -90,7 +90,7 @@ function stock_photography_setup() {
 	set_post_thumbnail_size( 50, 50, true ); // default thumbnail
 	update_option( 'thumbnail_size_w', 50, true );
 	update_option( 'thumbnail_size_h', 50, true );
-	add_image_size( 'sell_media_item', 420, 420, true ); // entry images
+	add_image_size( 'sell_media_item', 420, '', true ); // entry images
 
 	/**
 	 * This theme uses wp_nav_menu() in one location.
