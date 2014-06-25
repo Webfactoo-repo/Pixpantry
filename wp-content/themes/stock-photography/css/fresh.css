@@ -1,0 +1,211 @@
+/* Colors */
+body,
+button,
+input,
+select,
+textarea,
+span.likes {
+	color: #666;
+}
+a,
+.lightbox-active {
+	color: #469696;
+}
+a:hover,
+a:focus,
+a:active,
+li.icon-twitter a:before,
+li.icon-facebook a:before,
+li.icon-feed a:before,
+li.icon-vimeo a:before,
+li.icon-youtube a:before,
+li.icon-google-plus a:before,
+li.icon-pinterest a:before,
+.icon-menu:before,
+li.icon-link a:before,
+li.icon-earth a:before {
+	color: #111;
+}
+h1,h2,h3,h4,h5,h6,
+.entry-title a,
+.exif-title {
+	color: #3d3d3d;
+}
+.main-navigation ul ul a,
+.main-navigation li.current_page_item ul a,
+.main-navigation li.current-menu-item ul a,
+.entry-meta,
+.entry-meta a,
+.main-small-navigation .menu li a,
+ul.author-details li.author-info-position,
+#advanced-search-toggle {
+	color: #888;
+}
+
+.site-title a:hover,
+.top-navigation a:hover,
+.main-navigation a:hover,
+.main-navigation ul ul a:hover,
+.main-navigation ul ul li.current_page_item a,
+.main-navigation ul ul li.current-menu-item a,
+.main-navigation li.current_page_item a,
+.main-navigation li.current-menu-item a,
+.top-navigation li.current_page_item a,
+.top-navigation li.current-menu-item a,
+.main-navigation li.current_page_item ul a:hover,
+.main-navigation li.current-menu-item ul a:hover,
+.main-small-navigation .menu li a:hover,
+.smas-sidebar-container,
+.site-content .nav-previous a:hover,
+.site-content .nav-next a:hover,
+.collection-details,
+a .sell-media-item-details,
+#masthead .smas-container .smas-button-container input[type="submit"]:hover,
+.remove-lightbox,
+.remove-lightbox:hover,
+.lightbox-counter,
+.sell-media-grid .sell-media-text, .sell-media-grid .sell-media-buy-text,
+#colophon a:hover,
+#colophon a:focus,
+#colophon a:active,
+.menu-toggle:hover,
+.menu-toggle.toggled-on,
+.main-small-navigation li a:hover {
+	color: #fff;
+}
+.site-title a,
+h2.site-description,
+.top-navigation li a,
+.main-navigation li a,
+#masthead .smas-container .smas-button-container input[type="submit"],
+#masthead .smas-container .smas-fieldset .smas-legend-title,
+#colophon .widget-title,
+.menu-toggle,
+.main-small-navigation li a,
+.site-content .nav-previous a,
+.site-content .nav-next a {
+	color: rgba(255,255,255,.8);
+}
+a.like-count:hover {
+	color: #FF0000;
+}
+
+/* Backgrounds */
+.site-header,
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+	background-color: #469696;
+}
+.top-navigation a:hover,
+#masthead .smas-container .smas-button-container input[type="submit"],
+.main-small-navigation .menu,
+.main-navigation ul ul,
+.top-navigation ul ul,
+#featured-collection,
+.author-image,
+.archive-thumbnail,
+.sell-media-widget-thumb-wrap,
+.sell-media-grid,
+.sell-media-collection,
+#colophon,
+#masthead .smas-container .smas-button-container input[type="submit"]:hover {
+	background: #111;
+}
+#nav-wrapper,
+#main-nav-wrapper,
+#masthead .smas-container,
+#masthead #smas-advanced,
+.site-content .nav-previous a,
+.site-content .nav-next a {
+	background: rgba(0,0,0,.2);
+}
+.top-navigation a:hover,
+.main-navigation a:hover,
+.site-content .nav-previous a:hover,
+.site-content .nav-next a:hover {
+	background: rgba(0,0,0,.6);
+}
+hr,
+pre,
+.account-template .ui-tabs .ui-tabs-nav li{
+	background: #eee;
+}
+.account-template .ui-tabs .ui-tabs-nav li.ui-tabs-active {
+	background: #fff;
+}
+mark,
+ins {
+	background: #fff9c0;
+}
+#sell-media-single .sell-media-buy-button-success,
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+	background: #469696;
+	border-radius: 2px;
+	border: 1px solid #469696;
+	color: rgba(255,255,255,.8);
+}
+#sell-media-single .sell-media-buy-button-success:hover,
+button:hover,
+html input[type="button"]:hover,
+input[type="reset"]:hover,
+input[type="submit"]:hover {
+	background: #367677;
+	color: #fff;
+}
+
+/* Borders */
+abbr,
+acronym {
+	border-bottom: 1px dotted #ccc;
+}
+.account-template .ui-tabs .ui-tabs-nav  {
+	border-bottom: 1px solid #ccc;
+}
+.account-template .ui-tabs .ui-tabs-nav li a {
+	border: 1px solid #ccc;
+}
+.account-template .ui-tabs .ui-tabs-nav li.ui-tabs-active a {
+	border-bottom: 0;
+	outline: none;
+}
+#advanced-search-toggle {
+	border-left: 1px dotted #ccc;
+}
+
+/* Advanced Search */
+#masthead .smas-container {
+	padding: 10px;
+}
+#masthead .smas-container #smas_keywords input[type="text"] {
+	width: 98.3%;
+}
+#masthead .smas-container .smas-sidebar-container {
+	margin: 0;
+	padding: 0;
+}
+#masthead #smas-advanced {
+	padding: 10px;
+	top: 48px;
+	left: -10px;
+}
+
+/* Inputs */
+input[type=number],
+input[type=text],
+input[type=email],
+input[type=password],
+textarea {
+	color: #666;
+	border: 1px solid #ccc;
+}
+input[type=text]:focus,
+input[type=email]:focus,
+input[type=password]:focus,
+textarea:focus {
+	color: #111;
+}

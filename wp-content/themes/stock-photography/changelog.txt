@@ -1,0 +1,97 @@
+== Changelog ==
+
+= Version 1.2.2 (June 6, 2014) =
+	* Rely on core Sell Media archive template
+
+= Version 1.2.1 (May 28, 2014) =
+	* Sell Media archive parent/child fix
+
+= Version 1.2 (May 22, 2014) =
+	* Sell Media 1.9.4 integration
+	* Remove lightbox, use core Sell Media lightbox
+
+= Version 1.1.10 (May 4, 2014) =
+	* Author archive pagination fix
+
+= Version 1.1.9 (April 23, 2014) =
+	* Active class fix
+	* Smallscreen single item issue fix
+
+= Version 1.1.8 (April 10, 2014) =
+	* Checkout menu fix
+	* Lightbox remove fix
+	* Collection icon issue fix
+
+= Version 1.1.7 (March 27, 2014) =
+	* Advanced Search integraton
+	* Responsive Fixes
+	* Rely on core Sell Media templates
+	* CSS fixes
+	* Filter widget image sizes
+
+= Version 1.1.6 (March 21, 2014) =
+	* Smallscreen collections page issue fix
+
+= Version 1.1.5 (March. 11, 2014) =
+	* Added support for SellMedia 1.8
+
+= Version 1.1.4 (Feb. 5, 2014) =
+	* Add en_US po and mo files for translation
+
+= Version 1.1.3 (December 3, 2013) =
+	* Update to use the new settings API
+	* IE8 2 items per row bug fix
+	* Sub-collection featured images fix
+
+= Version 1.1.2 (October 31, 2013) =
+	* Typo fix
+	* Added cart count to the main menu when the `cart-menu` CSS class is used
+
+= Version 1.1.1 (September 20, 2013) =
+	* Creator issue fix
+
+= Version 1.1.0 (July 9, 2013) =
+	* Saving to Lightbox Improvements
+
+= Version 1.0.9 (July 3, 2013) =
+	* Lightbox improvements
+	* Updated EXIF widget
+	* Added css styling for SellMedia shortcodes
+	* Added sell media previous/next item navigation
+	* Added "starting at" price on single item pages
+	* Search results improvements when using the standard WordPress search widget
+	* Fixed contributor option
+	* Fixed "more" tag in blog posts
+
+= Version 1.0.8 (June 24, 2013) =
+	* Added thumbnail support for collections
+	* Lightbox menu css class filter added
+	* Updated theme customizer options
+
+= Version 1.0.7 (June 4, 2013) =
+	* Dashboard login form added
+
+= Version 1.0.6 (June 4, 2013) =
+	* Updating function name to match new name in Sell Media
+
+= Version 1.0.5 (May 30, 2013) =
+	* Fixed header height on mobile devices
+
+= Version 1.0.4 (May 29, 2013) =
+	* Updates for password protected collections and posts
+
+= Version 1.0.3 (May 28, 2013) =
+	* Updated taxonomy-collections.php to show either terms or items
+	* Added breadcrumbs to taxonomy-collections.php
+
+= Version 1.0.2 (May 28, 2013) =
+	* Added license archive template
+	* Increased header image size
+	* Updated collections page and homepage to show parent collections only
+
+= Version 1.0.1 (May 21, 2013) =
+	* Updated Dashboard page template
+	* Fixed favicon
+
+= Version 1.0 (May 1, 2013) =
+	* Initial release

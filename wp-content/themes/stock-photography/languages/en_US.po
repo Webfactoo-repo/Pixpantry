@@ -1,0 +1,705 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Stock Photography\n"
+"POT-Creation-Date: 2014-02-05 10:35-0500\n"
+"PO-Revision-Date: 2014-02-05 10:36-0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:16
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:20
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+
+#: 404.php:27
+msgid "Most Used Categories"
+msgstr ""
+
+#: 404.php:35
+#, php-format
+msgid "Try looking in the monthly archives. %1$s"
+msgstr ""
+
+#: archive-sell_media_item.php:65 no-results.php:14
+#: taxonomy-collection.php:178 taxonomy-keywords.php:65
+#: taxonomy-licenses.php:65
+msgid "Nothing Found"
+msgstr ""
+
+#: archive.php:22
+#, php-format
+msgid "Category Archives: %s"
+msgstr ""
+
+#: archive.php:25
+#, php-format
+msgid "Tag Archives: %s"
+msgstr ""
+
+#: archive.php:32
+#, php-format
+msgid "Author Archives: %s"
+msgstr ""
+
+#: archive.php:40
+#, php-format
+msgid "Daily Archives: %s"
+msgstr ""
+
+#: archive.php:43
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr ""
+
+#: archive.php:46
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr ""
+
+#: archive.php:49 sidebar.php:18
+msgid "Archives"
+msgstr ""
+
+#: author.php:67
+msgid "This author has no posts"
+msgstr ""
+
+#: comments.php:32
+#, php-format
+msgctxt "comments title"
+msgid "One comment on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s comments on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:39 comments.php:59
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:40 comments.php:60
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:41 comments.php:61
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:71
+msgid "Comments are closed."
+msgstr ""
+
+#: content-image.php:12 content-image.php:16 content.php:12 content.php:16
+#: page-blog.php:29 search.php:52
+#, php-format
+msgid "Permalink to %s"
+msgstr ""
+
+#: content-image.php:43 content.php:32
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: content-image.php:47 content-page.php:17 content-single.php:19
+#: content.php:36 image.php:94 page-blog.php:58 search.php:63
+msgid "Pages:"
+msgstr ""
+
+#: content-image.php:55 content-image.php:65 content-single.php:25
+#: content-single.php:28 content.php:44 content.php:54 page-blog.php:65
+#: page-blog.php:75
+msgid ", "
+msgstr ""
+
+#: content-image.php:59 content.php:48 page-blog.php:69
+#, php-format
+msgid "Posted in %1$s"
+msgstr ""
+
+#: content-image.php:70 content.php:59 page-blog.php:80
+#, php-format
+msgid "Tagged %1$s"
+msgstr ""
+
+#: content-image.php:77 content.php:66 page-blog.php:86
+msgid "Leave a comment"
+msgstr ""
+
+#: content-image.php:77 content.php:66 page-blog.php:86
+msgid "1 Comment"
+msgstr ""
+
+#: content-image.php:77 content.php:66 page-blog.php:86
+msgid "% Comments"
+msgstr ""
+
+#: content-image.php:80 content-page.php:18 content-single.php:57
+#: content.php:69 image.php:35 image.php:108 page-blog.php:89
+#: page-dashboard.php:21
+msgid "Edit"
+msgstr ""
+
+#: content-single.php:33
+#, php-format
+msgid ""
+"This entry was tagged %2$s. Bookmark the <a href=\"%3$s\" title=\"Permalink "
+"to %4$s\" rel=\"bookmark\">permalink</a>."
+msgstr ""
+
+#: content-single.php:35
+#, php-format
+msgid ""
+"Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark"
+"\">permalink</a>."
+msgstr ""
+
+#: content-single.php:41
+#, php-format
+msgid ""
+"This entry was posted in %1$s and tagged %2$s. Bookmark the <a href=\"%3$s\" "
+"title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
+msgstr ""
+
+#: content-single.php:43
+#, php-format
+msgid ""
+"This entry was posted in %1$s. Bookmark the <a href=\"%3$s\" title="
+"\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
+msgstr ""
+
+#: footer.php:41
+msgid "Powered by"
+msgstr ""
+
+#: footer.php:41
+msgid "A Semantic Personal Publishing Platform"
+msgstr ""
+
+#: footer.php:41
+msgid "WordPress"
+msgstr ""
+
+#: footer.php:43
+#, php-format
+msgid "%1$s by %2$s."
+msgstr ""
+
+#: functions.php:99 header.php:34
+msgid "Top Menu"
+msgstr ""
+
+#: functions.php:100
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:126
+msgid "Sidebar"
+msgstr ""
+
+#: functions.php:136
+msgid "Sidebar (Sell Media Single Items)"
+msgstr ""
+
+#: functions.php:146
+msgid "Homepage Top"
+msgstr ""
+
+#: functions.php:155
+msgid "Homepage Bottom"
+msgstr ""
+
+#: functions.php:166
+msgid "Footer Widget "
+msgstr ""
+
+#: header.php:35 header.php:83
+msgid "Skip to content"
+msgstr ""
+
+#: header.php:82
+msgid "Menu"
+msgstr ""
+
+#: home.php:23 single-sell_media_item.php:52
+msgid "Collections"
+msgstr ""
+
+#: image.php:24
+#, php-format
+msgid ""
+"Published <span class=\"entry-date\"><time class=\"entry-date\" datetime="
+"\"%1$s\">%2$s</time></span> at <a href=\"%3$s\" title=\"Link to full-size "
+"image\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" "
+"rel=\"gallery\">%8$s</a>"
+msgstr ""
+
+#: image.php:39
+msgid "&larr; Previous"
+msgstr ""
+
+#: image.php:40
+msgid "Next &rarr;"
+msgstr ""
+
+#: image.php:100
+#, php-format
+msgid ""
+"<a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">Post a "
+"comment</a> or leave a trackback: <a class=\"trackback-link\" href=\"%s\" "
+"title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
+msgstr ""
+
+#: image.php:102
+#, php-format
+msgid ""
+"Comments are closed, but you can leave a trackback: <a class=\"trackback-link"
+"\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback"
+"\">Trackback URL</a>."
+msgstr ""
+
+#: image.php:104
+msgid ""
+"Trackbacks are closed, but you can <a class=\"comment-link\" href=\"#respond"
+"\" title=\"Post a comment\">post a comment</a>."
+msgstr ""
+
+#: image.php:106
+msgid "Both comments and trackbacks are currently closed."
+msgstr ""
+
+#: loop-sell-media.php:68 taxonomy-collection.php:91
+msgid " images in "
+msgstr ""
+
+#: loop-sell-media.php:68 taxonomy-collection.php:91
+msgid " collection"
+msgstr ""
+
+#: loop-sell-media.php:71 taxonomy-collection.php:94
+msgid "Starting at "
+msgstr ""
+
+#: no-results.php:20
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: no-results.php:24
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: no-results.php:29
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: page-collections.php:21 page-dashboard.php:49 page-lightbox.php:153
+msgid "Please activate Sell Media plugin to use this page."
+msgstr ""
+
+#: page-dashboard.php:23
+msgid "Your Information: "
+msgstr ""
+
+#: page-dashboard.php:27
+msgid "Username: "
+msgstr ""
+
+#: page-dashboard.php:28
+msgid "Email: "
+msgstr ""
+
+#: page-dashboard.php:29
+msgid "First Name: "
+msgstr ""
+
+#: page-dashboard.php:30
+msgid "Last Name: "
+msgstr ""
+
+#: page-dashboard.php:36
+msgid "Purchase History: "
+msgstr ""
+
+#: page-dashboard.php:42
+msgid "You must be logged into the view this page."
+msgstr ""
+
+#: page-dashboard.php:44
+msgid "Lost your password?"
+msgstr ""
+
+#: page-lightbox.php:34
+msgid " Email to friend"
+msgstr ""
+
+#: page-lightbox.php:87 page-lightbox.php:144 page-lightbox.php:148
+msgid "Your lightbox is empty"
+msgstr ""
+
+#: page-lightbox.php:117
+msgid "Remove from lightbox"
+msgstr ""
+
+#: search.php:17
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: searchform.php:10 searchform.php:12
+msgid "Search"
+msgstr ""
+
+#: searchform.php:11
+msgid "Search &hellip;"
+msgstr ""
+
+#: sidebar.php:25
+msgid "Meta"
+msgstr ""
+
+#: single-sell_media_item.php:27
+msgid "Starting at"
+msgstr ""
+
+#: single-sell_media_item.php:32
+msgid "Save to lightbox"
+msgstr ""
+
+#: single-sell_media_item.php:32
+msgid "Saved to lightbox"
+msgstr ""
+
+#: single-sell_media_item.php:34
+msgid "File ID"
+msgstr ""
+
+#: single-sell_media_item.php:36
+msgid "Creator"
+msgstr ""
+
+#: single-sell_media_item.php:56
+msgid "Licenses"
+msgstr ""
+
+#: single-sell_media_item.php:67
+msgid "Keywords"
+msgstr ""
+
+#: single-sell_media_item.php:74
+msgid " people like this"
+msgstr ""
+
+#: taxonomy-collection.php:19 taxonomy-keywords.php:15
+#: taxonomy-licenses.php:15
+msgid "This collection is hidden."
+msgstr ""
+
+#: taxonomy-keywords.php:25
+msgid "Keyword Archives"
+msgstr ""
+
+#: taxonomy-licenses.php:25
+msgid "License Archives"
+msgstr ""
+
+#: theme-options.php:11 theme-options.php:15
+msgid "General"
+msgstr ""
+
+#: theme-options.php:25 theme-options.php:29
+msgid "Colors"
+msgstr ""
+
+#: theme-options.php:46
+msgid "Use a transparent png or jpg image"
+msgstr ""
+
+#: theme-options.php:58
+msgid "Use a transparent png or ico image"
+msgstr ""
+
+#: theme-options.php:70 theme-options.php:83
+msgid "<a href=\""
+msgstr ""
+
+#: theme-options.php:96
+msgid "Show slideshow thumbnails."
+msgstr ""
+
+#: theme-options.php:105
+msgid "Yes"
+msgstr ""
+
+#: theme-options.php:109
+msgid "No"
+msgstr ""
+
+#: theme-options.php:118
+msgid "Select a color palette"
+msgstr ""
+
+#: theme-options.php:127
+msgid "Light"
+msgstr ""
+
+#: theme-options.php:131
+msgid "Dark"
+msgstr ""
+
+#: theme-options.php:135
+msgid "Spring"
+msgstr ""
+
+#: theme-options.php:139
+msgid "Fresh"
+msgstr ""
+
+#: theme-options.php:148
+msgid "Add some custom CSS to your theme."
+msgstr ""
+
+#: inc/actions.php:11
+msgid "Profile Information"
+msgstr ""
+
+#: inc/actions.php:16
+msgid "Contributor"
+msgstr ""
+
+#: inc/actions.php:22
+msgid "Check to mark as contributor"
+msgstr ""
+
+#: inc/actions.php:28
+msgid "Display on contributor page"
+msgstr ""
+
+#: inc/actions.php:34
+msgid "Check to display on contributor page"
+msgstr ""
+
+#: inc/actions.php:41
+msgid "Position"
+msgstr ""
+
+#: inc/actions.php:45
+msgid "Enter your position."
+msgstr ""
+
+#: inc/actions.php:51
+msgid "Twitter"
+msgstr ""
+
+#: inc/actions.php:55
+msgid "Enter your Twitter url"
+msgstr ""
+
+#: inc/actions.php:61
+msgid "Facebook"
+msgstr ""
+
+#: inc/actions.php:65
+msgid "Enter your Facebook url"
+msgstr ""
+
+#: inc/actions.php:71
+msgid "Google +"
+msgstr ""
+
+#: inc/actions.php:75
+msgid "Enter your Google + url"
+msgstr ""
+
+#: inc/actions.php:81
+msgid "YouTube"
+msgstr ""
+
+#: inc/actions.php:85
+msgid "Enter your YouTube url"
+msgstr ""
+
+#: inc/actions.php:91
+msgid "Vimeo"
+msgstr ""
+
+#: inc/actions.php:95
+msgid "Enter your Vimeo url"
+msgstr ""
+
+#: inc/extras.php:75
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: inc/template-tags.php:39
+msgid "Post navigation"
+msgstr ""
+
+#: inc/template-tags.php:43
+msgctxt "Previous post link"
+msgid "&larr;"
+msgstr ""
+
+#: inc/template-tags.php:44
+msgctxt "Next post link"
+msgid "&rarr;"
+msgstr ""
+
+#: inc/template-tags.php:49
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr ""
+
+#: inc/template-tags.php:53
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: inc/template-tags.php:78
+msgid "Pingback:"
+msgstr ""
+
+#: inc/template-tags.php:78 inc/template-tags.php:101
+msgid "(Edit)"
+msgstr ""
+
+#: inc/template-tags.php:88
+#, php-format
+msgid "%s <span class=\"says\">says:</span>"
+msgstr ""
+
+#: inc/template-tags.php:91
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: inc/template-tags.php:99
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: inc/template-tags.php:126
+#, php-format
+msgid ""
+"<a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\"><time class=\"entry-date\" "
+"datetime=\"%3$s\">%4$s</time></a><span class=\"byline\"> by <span class="
+"\"author vcard\"><a class=\"url fn n\" href=\"%5$s\" title=\"%6$s\" rel="
+"\"author\">%7$s</a></span></span>"
+msgstr ""
+
+#: inc/template-tags.php:132
+#, php-format
+msgid "View all posts by %s"
+msgstr ""
+
+#: inc/widgets/sell-media-exif.php:27
+msgid "Camera "
+msgstr ""
+
+#: inc/widgets/sell-media-exif.php:32
+msgid "Aperture "
+msgstr ""
+
+#: inc/widgets/sell-media-exif.php:37
+msgid "Focal Length "
+msgstr ""
+
+#: inc/widgets/sell-media-exif.php:42
+msgid "Shutter Speed "
+msgstr ""
+
+#: inc/widgets/sell-media-exif.php:60
+msgid "ISO "
+msgstr ""
+
+#: inc/widgets/sell-media-exif.php:64
+msgid "Credit "
+msgstr ""
+
+#: inc/widgets/sell-media-exif.php:69
+msgid "Date "
+msgstr ""
+
+#: inc/widgets/sell-media-exif.php:74 inc/widgets/sell-media-exif.php:76
+msgid "Copyright "
+msgstr ""
+
+#: inc/widgets/sell-media-exif.php:76
+msgid "by "
+msgstr ""
+
+#: options/options.php:126 options/options.php:129
+#: options/library/theme-customizer.php:49
+msgid "Theme Options"
+msgstr ""
+
+#: options/options.php:164
+msgid " settings updated successfully."
+msgstr ""
+
+#: options/options.php:175
+msgid "Save Settings"
+msgstr ""
+
+#: options/options.php:176
+msgid "Reset Defaults"
+msgstr ""
+
+#: options/options.php:364 options/options.php:384 options/options.php:403
+msgid ""
+"This option has no valid options. Please create valid options as an array "
+"inside the GPP Framework."
+msgstr ""
+
+#: options/options.php:486
+msgid "Upload or Select Image"
+msgstr ""
+
+#: options/options.php:487 options/options.php:582
+msgid "Remove"
+msgstr ""
+
+#: options/options.php:581
+msgid "Upload or Select Images"
+msgstr ""
+
+#: options/options.php:672
+msgid "Version: "
+msgstr ""
+
+#: options/options.php:673
+msgid "Support"
+msgstr ""
+
+#: options/options.php:674
+msgid "Theme Instructions"
+msgstr ""
+
+#: options/options.php:674
+msgid "Instructions"
+msgstr ""
+
+#: options/options.php:686
+msgid "URL"
+msgstr ""
+
+#: options/library/helpers.php:15
+msgid "-- Choose One --"
+msgstr ""
