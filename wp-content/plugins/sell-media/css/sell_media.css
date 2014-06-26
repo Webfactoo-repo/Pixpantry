@@ -281,7 +281,7 @@ table.sell-media-products {
 .sell-media .sell-media-grid h3 {
   margin: 0;
   position: absolute;
-  top: 40%;
+  top: 82%;
   text-align: center;
   width: 100%;
 }
@@ -289,7 +289,7 @@ table.sell-media-products {
 .sell-media .sell-media-grid .remove-lightbox,
 .sell-media .sell-media-grid .sell-media-text {
   position: absolute;
-  bottom: 10px;
+  top: 10px;
   text-transform: uppercase;
   font-size: 11px;
   font-size: .8rem;
@@ -298,9 +298,15 @@ table.sell-media-products {
 .sell-media .sell-media-grid .add-to-lightbox,
 .sell-media .sell-media-grid .remove-lightbox {
   left: 10px;
+  padding: 10px;
+  background-color: #469696;
+  top: 10px;
 }
 .sell-media .sell-media-grid .sell-media-text {
-  right: 10px;
+  right: 12px;
+  padding: 10px;
+  background-color: #469696;
+  top: 10px;
 }
 .sell-media-pagination-container {
   clear: both;

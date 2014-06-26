@@ -103,9 +103,9 @@ $settings = sell_media_get_plugin_options();
                             <div class="sell-media-grid<?php if ( $i %3 == 0 ) echo ' end'; ?>">
                                 <div class="item-inner">
                                     <a href="<?php the_permalink(); ?>"><?php sell_media_item_icon( $post->ID, apply_filters( 'sell_media_thumbnail', 'medium' ) ); ?></a>
-                                    <span class="item-overlay">dsfsd
+                                    <span class="item-overlay">
                                         <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
-                                        <a href="javascript:void(0);" title="<?php _e( 'Save', 'sell_media' ); ?>" class="add-to-lightbox" id="lightbox-<?php echo $post->ID; ?>" data-id="<?php echo $post->ID; ?>"><?php _e( 'Save', 'sell_media' ); ?></a>
+                                        <a href="javascript:void(0);" title="Lightbox" class="add-to-lightbox" id="lightbox-<?php echo $post->ID; ?>" data-id="<?php echo $post->ID; ?>">Lightbox</a>
                                         <?php sell_media_item_buy_button( $post->ID, 'text', __( 'Buy' ) ); ?>
                                         <?php do_action( 'sell_media_item_overlay' ); ?>
                                     </span>
