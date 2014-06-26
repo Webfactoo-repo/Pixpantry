@@ -5,7 +5,6 @@
  * @package Stock Photography
  * @since Stock Photography 1.0
  */
-
 get_header(); ?>
 
 		<div id="primary" class="content-area blog-list">
