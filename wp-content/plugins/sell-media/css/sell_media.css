@@ -308,6 +308,15 @@ table.sell-media-products {
   background-color: #469696;
   top: 10px;
 }
+#sell-media-lightbox-content .sell-media-grid .sell-media-text {
+  top: 0px !important;
+  right: 0px !important;
+}
+#sell-media-lightbox-content .sell-media-grid .remove-lightbox {
+  top: 0px !important;
+  left: 0px !important;
+}
+
 .sell-media-pagination-container {
   clear: both;
   text-align: center
