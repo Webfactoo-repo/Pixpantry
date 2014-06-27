@@ -1,0 +1,181 @@
+/*= UI Theme
+-------------------------------------------------------------- */
+.ui-helper-hidden,
+.ui-helper-hidden-accessible { display: none; }
+.ui-autocomplete {
+    position: absolute;
+    top: 0;
+    left: 0;
+    cursor: default;
+    background: white;
+    color: #ddd;
+    border: solid #DADADA;
+    box-shadow: 0px 3px 5px rgba(204, 204, 204, 0.46);
+    border-width: 1px 1px 1px;
+    font-size: 12px;
+    margin: 0;
+    list-style-type: none;
+    }
+
+.ui-autocomplete .ui-menu-item a.ui-state-focus,
+.ui-autocomplete .ui-menu-item a.ui-state-active {
+    color: #000;
+    background: #f3f3f3;
+    }
+
+.ui-autocomplete .ui-menu-item a {
+    color: #333;
+    display: block;
+    padding: 2px 4px;
+    text-decoration: none;
+    cursor: pointer;
+    }
+
+
+/*= Sell Media Advanced Search
+-------------------------------------------------------------- */
+.smas-container {
+    font-size: 12px;
+    font-family: helvetica, sans-serif;
+    }
+
+.smas-container .smas-sidebar-container {
+    float: left;
+    margin-bottom: 1%;
+    padding-bottom: 1%;
+    width: 100%;
+    }
+
+
+/*= Sell Media Form fields
+-------------------------------------------------------------- */
+.smas-container .smas-fieldset {
+    float: left;
+    margin: 0 3% 0 0;
+    }
+
+.smas-container #smas_keywords {
+    margin: 0;
+    width: 20%;
+    }
+
+.smas-container .smas-fieldset .smas-legend-title {
+    font-weight: bold;
+    margin-bottom: 3px;
+    }
+
+.smas-container .smas-fieldset label {
+    font-weight: normal;
+    margin: 0 0 0 3px;
+    }
+
+.smas-container .smas-fieldset .smas-row {
+    float: left;
+    margin: 0 0 5px;
+    }
+
+.smas-container .smas-fieldset .smas-count {
+    font-size: 11px;
+    }
+
+.smas-container input {
+    line-height: 1.625;
+    }
+
+.smas-container input[type="text"] {
+    background: #FAFAFA;
+    border: 1px solid #DDD;
+    font-size: 12px;
+    font-family: helvetica, sans-serif;
+    width: 85%;
+    padding: 3px;
+    }
+
+.smas-container input.smas-min-price,
+.smas-container input.smas-max-price {
+    display: inline;
+    float: none;
+    width: 30px;
+    height: 14px;
+    }
+
+.smas-container .smas-button-container {
+    clear: both;
+    float: left;
+    }
+
+.smas-container .smas-button-container input[type="button"],
+.smas-container .smas-button-container input[type="submit"] {
+    border: 1px solid #CCC;
+    border-color: #CCC #CCC #BBB #CCC;
+    background: #FAFAFA;
+    background: -moz-linear-gradient(top, #FAFAFA 60%, #E6E6E6 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(60%,#FAFAFA), color-stop(100%,#E6E6E6));
+    background: -webkit-linear-gradient(top, #FAFAFA 60%,#E6E6E6 100%);
+    background: -o-linear-gradient(top, #FAFAFA 60%,#E6E6E6 100%);
+    background: -ms-linear-gradient(top, #FAFAFA 60%,#E6E6E6 100%);
+    background: linear-gradient(top, #FAFAFA 60%,#E6E6E6 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fafafa', endColorstr='#e6e6e6',GradientType=0 );
+    box-shadow: inset 0 2px 1px white;
+    -webkit-box-shadow: inset 0 2px 1px white;
+    -moz-box-shadow: inset 0 2px 1px #fff;
+    color: rgba(0, 0, 0, .8);
+    text-shadow: 0 1px 0 rgba(255, 255, 255, .5);
+    cursor: pointer;
+    padding: 2px 8px;
+    font-weight: bold;
+    font-family: helvetica, sans-serif;
+    font-size: 12px;
+    margin: 10px 0;
+    }
+
+.smas-container select {
+    width: auto;
+    }
+
+/*= Sell Media main container
+-------------------------------------------------------------- */
+.smas-container .smas-main-container {
+    float: left;
+    width: 100%;
+    }
+
+.smas-container .smas-main-container .smas-main-title {
+    font-size: 22px;
+    margin: 0 0 5px;
+    }
+
+.smas-container .smas-main-container .smas-count {
+    color: #ccc;
+    }
+
+/* Every fith item gets padding */
+.smas-container .smas-main-container .smas-item:nth-child(5n+6) {
+    /*margin: 0 0 25px 0;*/
+    }
+
+.smas-container .smas-main-container .smas-item {
+    float: left;
+    margin: 0 2% 2% 0;
+    height: 230px; /*For portraits*/
+    width: 18%;
+    }
+
+
+/*= Sell Media Results Container
+-------------------------------------------------------------- */
+.smas-results-target-container .smas-no-results {
+    font-size: 20px;
+    margin: 3% 0;
+    }
+
+.smas-results-target-container .smas-image-container .sell-media-cart-trigger  {
+    float: right;
+    font-size: 12px;
+    }
+
+.smas-container .smas-main-container .smas-loading-icon {
+    background: url('../images/ajax-loader.gif') no-repeat center 0;
+    text-align: center;
+    padding-top: 25px;
+    }
