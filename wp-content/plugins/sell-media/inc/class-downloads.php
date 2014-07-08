@@ -44,9 +44,9 @@ Class SellMediaDownload {
 
                 nocache_headers();
                 header( "Robots: none" );
-                header( "Content-Type: " . $ctype . "" );
+                header( "Content-Type: " . $ctype . "", true, 200 );
                 header( "Content-Description: File Transfer" );
-                header( "Content-Disposition: attachment; filename=\"" . basename( $requested_file ) . "\"" );
+                header( 'Content-Disposition: attachment; filename="' . basename( $requested_file ) . '"' );
                 header( "Content-Transfer-Encoding: binary" );
 
                 // Get the original uploaded file in the sell_media dir
@@ -60,7 +60,7 @@ Class SellMediaDownload {
                     $this->download_package( $file_path );
                 }
                 do_action( 'sell_media_after_successful_download', $product_id );
-                wp_die();
+                exit;
             } else {
                 do_action( 'sell_media_before_failed_download', $product_id );
                 wp_die( __( 'You do not have permission to download this file', 'sell_media'), __( 'Purchase Verification Failed', 'sell_media' ) );
