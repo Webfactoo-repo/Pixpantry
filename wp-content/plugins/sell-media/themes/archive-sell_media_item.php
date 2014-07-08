@@ -29,7 +29,10 @@ $settings = sell_media_get_plugin_options();
                         sell_media_taxonomy_breadcrumb();
                         echo '</ul>';
                     elseif ( is_post_type_archive( 'sell_media_item' ) ) :
-                        $obj = get_post_type_object( 'sell_media_item' );
+                    	$keywords = join(", ", explode(" ", $_GET['tax_query'][0]['keywords']));
+//                        $obj = get_post_type_object( 'sell_media_item' );
+
+						echo "Search results for: " . $keywords;
                         echo ucfirst( $obj->rewrite['slug'] );
                     else :
                         _e( 'Archive', 'sell_media' );
@@ -115,7 +118,7 @@ $settings = sell_media_get_plugin_options();
                         <?php endwhile; ?>
                         <?php sell_media_pagination_filter(); ?>
                     <?php else : ?>
-                        <p><?php _e( 'Nothing Found', 'sell_media' ); ?></p>
+                        <p>No results for your search. Please try with different keywords, or <a href="http://pixpantry.com/about/">contact us</a>.</p>
                     <?php endif; $i = 0; ?>
                 <?php endif; ?>
             </div><!-- .sell-media-grid-container -->
