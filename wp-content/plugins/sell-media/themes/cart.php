@@ -10,6 +10,10 @@
  * plugin settings
  */
 $settings = sell_media_get_plugin_options();
+
+//Sell Media Image object
+$sellMedImgObj = new SellMediaImages();
+
 // check price
 $custom_price = get_post_meta( $_POST['product_id'], 'sell_media_price', true );
 if ( ! empty( $custom_price ) ) {
@@ -72,13 +76,19 @@ if ( $licenses ) {
                 <?php if ( ! $is_package && $has_price_group ) : ?>
                     <fieldset id="sell_media_download_size_fieldset">
                         <legend><?php echo apply_filters( 'sell_media_download_size_text', 'Size' ); ?></legend>
+
                         <select id="sell_media_item_size" class="sum" required>
                             <option selected="selected" value="" data-id="" data-size="" data-price="0" data-qty="0">-- <?php _e( 'Select a size', 'sell_media'); ?> --</option>
                             <?php
                                 $prices = Sell_Media()->products->get_prices( $_POST['product_id'] );
                                 if ( $prices ) foreach ( $prices as $k => $v ) {
                                     if ( Sell_Media()->products->mimetype_is_image( get_post_meta( $_POST['product_id'], '_sell_media_attachment_id', true ) ) ){
-                                        $name = $v['name'] . ' (' . $v['width'] . ' x ' . $v['height'] . ')';
+                                    	$imgSizes = $sellMedImgObj->get_downloadable_size($_POST['product_id']);
+                                    	if(isset($imgSizes[$v['id']])) {
+	                                        $name = $v['name'] . ' (' . $imgSizes[$v['id']]['width'] . ' x ' . $imgSizes[$v['id']]['height'] . ')';
+                                    	}else{
+	                                        $name = $v['name'] . ' (' . $v['width'] . ' x ' . $v['height'] . ')';
+                                    	}
                                         $dimensions = $v['width'] . ' x ' . $v['height'];
                                     } else {
                                         $name = $v['name'];
@@ -89,6 +99,9 @@ if ( $licenses ) {
                             ?>
                         </select>
                     </fieldset>
+<?php                                 
+
+?>
                 <?php else : ?>
                     <input id="sell_media_item_base_price" type="hidden" value="<?php echo $price; ?>" data-price="<?php echo $price; ?>" data-id="original" data-size="original" />
                 <?php endif; ?>
