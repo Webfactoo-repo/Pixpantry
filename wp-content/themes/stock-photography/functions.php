@@ -295,3 +295,17 @@ function custom_author_archive( &$query ) {
         $query->set( 'post_type', 'sell_media_item' );
 }
 add_action( 'pre_get_posts', 'custom_author_archive' );
+
+
+
+/** changing default wordpres email settings */
+ 
+add_filter('wp_mail_from', 'new_mail_from');
+add_filter('wp_mail_from_name', 'new_mail_from_name');
+ 
+function new_mail_from($old) {
+ return 'pix@pixpantry.com';
+}
+function new_mail_from_name($old) {
+ return 'Pixpantry';
+}
