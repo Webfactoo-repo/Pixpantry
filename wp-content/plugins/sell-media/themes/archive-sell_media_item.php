@@ -29,10 +29,11 @@ $settings = sell_media_get_plugin_options();
                         sell_media_taxonomy_breadcrumb();
                         echo '</ul>';
                     elseif ( is_post_type_archive( 'sell_media_item' ) ) :
+	                    global $wp_query;
                     	$keywords = join(", ", explode(" ", $_GET['tax_query'][0]['keywords']));
 //                        $obj = get_post_type_object( 'sell_media_item' );
 
-						echo "Search results for: " . $keywords;
+						echo "Search results for: " . $keywords . " (<span id='noofresults'>" . $wp_query->post_count . "</span>)";
                         echo ucfirst( $obj->rewrite['slug'] );
                     else :
                         _e( 'Archive', 'sell_media' );
