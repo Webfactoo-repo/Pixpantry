@@ -86,12 +86,13 @@ if ( $licenses ) {
                                     	$imgSizes = $sellMedImgObj->get_downloadable_size($_POST['product_id']);
                                     	if(isset($imgSizes[$v['id']])) {
 	                                        $name = $v['name'] . ' (' . $imgSizes[$v['id']]['width'] . ' x ' . $imgSizes[$v['id']]['height'] . ')';
+											$dimensions = $imgSizes[$v['id']]['width'] . ' x ' . $imgSizes[$v['id']]['height'];
                                     	}else{
                                     		$attachMeta = get_post_meta($_POST['product_id']);
 											$imgDataa = getimagesize(WP_CONTENT_DIR . "/uploads/sell_media/" . $attachMeta[_sell_media_attached_file][0]) ;
 	                                        $name = $v['name'] . ' (' . $imgDataa[0] . ' x ' . $imgDataa[1] . ')';
+											$dimensions = $imgDataa[0] . ' x ' . $imgDataa[1];
                                     	}
-                                        $dimensions = $v['width'] . ' x ' . $v['height'];
                                     } else {
                                         $name = $v['name'];
                                         $dimensions = '';
