@@ -43,7 +43,6 @@ $settings = sell_media_get_plugin_options();
             </header>
 
             <div id="sell-media-grid-container" class="sell-media-grid-container">
-
                 <?php
 
                 /*
