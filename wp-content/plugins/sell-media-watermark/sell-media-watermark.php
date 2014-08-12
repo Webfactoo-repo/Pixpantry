@@ -197,7 +197,6 @@ function sell_media_watermark_file_for_sale( $original_image=null ){
             $for_sale = basename( $file->meta_value );
         }
     }
-$for_salee["mystring"] = $mystring;
     return $for_sale;
 }
 
@@ -212,6 +211,7 @@ $for_salee["mystring"] = $mystring;
 function sell_media_create_watermark( $original_image, $original_watermark ){
     $for_sale = sell_media_watermark_file_for_sale( $original_image );
     $settings = sell_media_get_plugin_options();
+// Lordcase - manually remove cover from watermarking
     if ( $for_sale || ($settings->watermark_all[0] == 'yes' && basename($original_image)!="cropped-cover2.jpg")){
 
         $dir = dirname( $original_image );
