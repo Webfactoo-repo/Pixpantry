@@ -92,6 +92,7 @@ $settings = sell_media_get_plugin_options();
                                     </div>
                                 </span>
                             </div>
+                                    <h3 class="collection-title"><?php echo $category->name; ?></h3>
                         </div>
                         <?php endwhile;
                     }

@@ -1467,6 +1467,9 @@ h2.comments-title {
 		font-size: 1em;
 		font-weight: normal;
 }
+.sell-media .sell-media-grid:hover h3.collection-title {
+	right: 1px;
+}
 .collection-details {
 	font-size: 1em;
 	text-align: center;
