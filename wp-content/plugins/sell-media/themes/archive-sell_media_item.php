@@ -60,6 +60,7 @@ $settings = sell_media_get_plugin_options();
                         'hide_empty'    => 0
                     );
                     $categories = get_categories( $args );
+					shuffle( $categories );
 
                     /*
                      * Pulls the first post from each individual collection
