@@ -29,8 +29,9 @@ $settings = sell_media_get_plugin_options();
                         sell_media_taxonomy_breadcrumb();
                         echo '</ul>';
                     elseif ( is_post_type_archive( 'sell_media_item' ) ) :
-	                    global $wp_query;
-                    	$keywords = join(", ", explode(" ", $_GET['tax_query'][0]['keywords']));
+//	                    global $wp_query;
+//	                    print_r($_GET['tax_query'][0]['keywords']);
+                    	$keywords = join(", ", explode(" ", str_replace(",", "", $_GET['tax_query'][0]['keywords'])));
 //                        $obj = get_post_type_object( 'sell_media_item' );
 
 						echo "Search results for: " . $keywords . " (<span id='noofresults'>" . $wp_query->post_count . "</span>)";
@@ -101,7 +102,9 @@ $settings = sell_media_get_plugin_options();
                     wp_reset_postdata();
 
                 else : ?>
-
+<?php// wp_reset_query();?>
+<?php// print_r($wp_query);?>
+<?php// global $query_string; query_posts( $query_string . '&order=rand');echo $query_string;?>
                     <?php if ( have_posts() ) : ?>
                         <?php rewind_posts(); ?>
                         <?php $i = 0; ?>
